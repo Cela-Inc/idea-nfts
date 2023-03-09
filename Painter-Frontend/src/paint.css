@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.colorPickerIcon {
+	height: 2rem;
+	width: 2rem;
+	border: 1px solid #aaa;
+	border-radius: 50%;
+}
+
+.colorPickerIcon:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.colorPickerIcon:active {
+	opacity: 0.5;
+}
+
+.colorPickerBar {
+	width: 100%;
+	height: 1rem;
+	border-radius: 2rem;
+}

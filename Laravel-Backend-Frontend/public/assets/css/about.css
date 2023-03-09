@@ -1,0 +1,193 @@
+/* ========= About Page ============ */
+.about-page .header-site,
+.about-page .hero,
+.about-page .bg-navbar{
+  background-color: var(--lavender-savor); !important;
+}
+
+.about-page .hero .vector {
+  height: 50px;
+  width: 50px;
+  margin-top: 32px;
+  margin-left: 91px;
+  margin-left: 16.88%;
+}
+
+.about-page .hero h1 {
+	color: var(--black);
+	font-family: var(--font-family-sequel100black-95-regular);
+	font-size: var(--font-size-32);
+	font-weight: 400;
+	letter-spacing: 0;
+	text-transform: capitalize;
+	line-height: 58px; 
+	max-width: 532px;
+	min-height: 174px;
+}
+.about-page .hero .button{
+	height: 45px;
+	margin-bottom:72px;
+	margin-top: 72px;
+}
+
+.about-page .hero .vector-1 {
+	margin-left: 19.25px;
+	margin-top: 1px;
+	width: 211px;
+	margin-bottom: -33px;
+	overflow: hidden;
+	padding-bottom: 33PX;
+} 
+
+.about-page .hero .card-body{
+	background: var(--lily-white);
+	border: 1px solid;
+	border-color: var(--black);
+	box-shadow: 3px 3px 0px #1A1A1A;
+	border-radius: 16px; 
+	overflow: hidden;
+	padding: 39px 40px; 
+	max-width: 528px;
+	min-height: 363px;
+	z-index: 1;
+	box-sizing: border-box;
+ 
+}
+.about-page .hero .card-body p{
+	color: var(--black);
+	font-family: var(--font-family-raleway);
+	font-size: var(--font-size-16);
+	font-weight: 400;
+	letter-spacing: 0;
+}
+
+.about-page .hero .overlap-group {
+	bottom: 0;
+	position: relative;
+}
+.about-page .hero .vector-3 {
+	right: -30px;
+	bottom: 0;
+	position: absolute;
+	margin-bottom: 0px;
+	overflow: hidden;
+	z-index: 0;
+	height: 113px;
+}
+.about-page .hero .vector-4 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 133px;
+}
+
+.about-page .creativity-innov {
+	background-color: var(--white);
+	align-self: flex-start;
+	letter-spacing: 6.00px;
+	line-height: 24px;
+	white-space: nowrap;
+	font-family: var(--font-family-sequel100black-95-regular);
+	font-size: var(--font-size-24);
+	font-style: normal;
+	font-weight: 400;
+}
+
+.about-page .creativity-innov .strawberry{ color: var(--wild-strawberry); }
+.about-page .creativity-innov .blue{ color: var(--new-car); }
+.about-page .creativity-innov .jaffa{ color: var(--jaffa); }
+.about-page .creativity-innov .chateau-green{ color: var(--chateau-green); }
+
+.our-team{
+	background-color: var(--lily-white);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: var(--black);
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+.our-team .section-title{
+  color: var(--new-car);
+  font-family: var(--font-family-sequel100black-95-regular);
+  font-size: var(--font-size-32);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 58px;
+  max-width: 496px;
+}
+.our-team .card-team{
+    background-color: var(--white);
+    border: 2px solid;
+    border-color: var(--black);
+    border-radius: 16px;
+    box-shadow: 3px 3px 0px #1a1a1a;
+}
+.our-team .card-team img{
+  border-radius: 16px;    
+}
+
+.reach-out-to-idea-da {
+  color: var(--black);
+  font-family: var(--font-family-sequel100black-95-regular);
+  font-size: var(--font-size-40);
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 58px; 
+  top: 0;  
+}
+
+.link-email{
+    color: var(--wild-strawberry);
+    text-decoration: none;
+}
+.link-email:hover{
+    color: var(--wild-strawberry);
+    text-decoration: none;
+} 
+
+.about-page .btn-circle,
+.about-page .btn-circle:hover{
+    margin-top: -50px;
+    float: right;
+    position: relative;
+    width: 145px;
+    height: 145px;
+    background: #2745E2;
+    border-radius: 70px;
+    font-family: var(--font-family-raleway);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #E3FAFF;
+    text-decoration: none;
+}
+.about-page .btn-circle span{
+    position: absolute;
+    width: 72px;
+    height: 21px;
+    left: 37px;
+    top: 62px;
+}
+
+@media (max-width:475px){
+	.about-page .hero .left{
+		margin-bottom: 15px;
+	}
+	.about-page .hero .overlap-group {
+		height: 90px;
+	}
+	.about-page .hero .vector-3 {
+		width: 100%;
+		right: 45px;
+		height: 80px;
+	}
+	.about-page .hero .vector-4 { 
+		height: 90px;
+	}
+	
+}
+
+/* ========= /. About Page ============ */
